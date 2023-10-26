@@ -8,5 +8,9 @@ describe("Frase", () => {
     expect(calcu.separar("hola")).toEqual("hola");
   });
 
+  it("deberia retornar una frase volviendo todo a minuscula", () => {
+    const calcu = new frase();
+    expect(calcu.separar("HOLA")).toEqual("hola");
+  });
 
 });
