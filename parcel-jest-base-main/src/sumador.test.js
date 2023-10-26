@@ -1,7 +1,12 @@
+import frase from "./sumador.js";
 import sumar from "./sumador.js";
 
-describe("Sumar", () => {
-  it("deberia sumar dos numeros", () => {
-    expect(sumar(3, 2)).toEqual(5);
+
+describe("Frase", () => {
+  it("deberia retornar una frase", () => {
+    const calcu = new frase();
+    expect(calcu.separar("hola")).toEqual("hola");
   });
+
+
 });

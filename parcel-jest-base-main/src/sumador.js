@@ -1,5 +1,14 @@
-function sumar(a, b) {
-  return a + b;
+class frase{
+
+  separar(frase)
+  {
+    const minus = frase.toLowerCase();
+    return minus;
+  }
+  
+
 }
 
-export default sumar;
+
+
+export default frase;
